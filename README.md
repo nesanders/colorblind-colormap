@@ -21,6 +21,6 @@ The output figures 'test_palette_*.png' illustrate the palettes
 and 'test_scatter.png' illustrates usage
 
 Note that the CBcm.py script will overwrite the default
-matplotlib colorcucle defined in matplotlib.rcParams,
+matplotlib colorcycle defined in matplotlib.rcParams,
 but you can easily remove this behavior by deleting
 the last line in CBcm.py
