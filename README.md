@@ -10,10 +10,10 @@ http://jfly.iam.u-tokyo.ac.jp/color/image/pallete.jpg
 
 Three dictionaries of palettes are established:
 
-    * CB2cm: Linear gradients between each combination of the
-             colors in the Okabe & Ito palette
-    * CBWcm: 2 color gradient, transitioning to white in the middle
-    * CBBcm: 2 color gradient, transitioning to black in the middle
+* CB2cm: Linear gradients between each combination of the
+            colors in the Okabe & Ito palette
+* CBWcm: 2 color gradient, transitioning to white in the middle
+* CBBcm: 2 color gradient, transitioning to black in the middle
 
 The script 'CBcm_test.py' illustrates the use of these maps
 
