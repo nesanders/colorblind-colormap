@@ -1,5 +1,6 @@
 execfile('CBcm.py')
 import numpy as np
+import os
 
 ## Plot gradient bars for each palette
 ## Using recipe from http://www.scipy.org/Cookbook/Matplotlib/Show_colormaps
@@ -32,3 +33,7 @@ plt.ylabel('y')
 
 plt.savefig('test_scatter.png')
 plt.close()
+
+##rotate image
+os.system('mogrify -rotate 90 test_palettes.png')
+

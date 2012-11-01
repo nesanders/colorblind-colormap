@@ -1,4 +1,4 @@
-The script CMcm.py establishes a set of continuous colormaps
+The script CBcm.py establishes a set of continuous colormaps
 for matplotlib based on the color-blind-friendly palette 
 developed by Okabe & Ito:
 
