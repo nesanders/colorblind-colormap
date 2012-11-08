@@ -7,8 +7,8 @@ import os
 plt.rc('text', usetex=False)
 a=np.outer(np.arange(0,1,0.01),np.ones(10))
 
-names=['CB2cm','CBWcm','CBBcm']
-CBcm=[CB2cm,CBWcm,CBBcm]
+names=['CB2cm','CBWcm','CBBcm','CBLDcm']
+CBcm=[CB2cm,CBWcm,CBBcm,CBLDcm]
 for i in range(len(names)):
     plt.figure(figsize=(10,5))
     plt.subplots_adjust(top=0.8,bottom=0.05,left=0.01,right=0.99)
